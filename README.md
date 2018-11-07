@@ -8,4 +8,4 @@ export "GOPATH=$PWD"
 cd "$GOPATH/src/mapreduce"
 go test -run Sequential
 ```
-如果代码有bug，可以go test -run Sequential
+如果代码有bug，可以go test -run SequentialSingle 这个测试比较简单
